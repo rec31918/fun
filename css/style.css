@@ -1,5 +1,4 @@
 
-/*@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400');*/
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Roboto|Lora|Playfair+Display');
 
 
@@ -22,10 +21,7 @@ h1 {
 }
 
 h2 {
-  /*color: #111;*/
   font-size: 30px;
-  /*line-height: 52px;
-  margin-top: 0px;*/
   font-family: 'Playfair Display', serif;
   line-height: 1.5em;
   color: black;
@@ -46,12 +42,38 @@ p {
     text-align: justify;
 }
 
-/*span,*/
 strong {
   color: #111;
   font-weight: normal;
 }
 
+span.subtitle {
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 2em;
+  letter-spacing: .08em;
+  color: black;
+  background-color: rgba(200,214,217, .3);
+}
+
+span.sub-subtitle {
+  margin: 5px 0px 5px 0px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: .03em;
+  color: black;
+  background-color: rgba(230,213,221, .2);
+}
+
+span.emphasize {
+  font-size: .9em;
+  letter-spacing: .05em;
+  font-weight: 300;
+  color: black;
+  background-color: rgba(255,229,214, .2); 
+}
 
 /*---------------------------------------
   Buttons               
@@ -294,8 +316,6 @@ a:hover, a:active, a:focus {
 }
 
 #home img {
-/*  width: 120px;
-  height: 120px;*/
   opacity: 20%;
   border-radius: 95%;
   
@@ -343,36 +363,6 @@ div.card-action{
   padding-bottom: 60px;
 }
 
-span.subtitle {
-  font-family: 'Roboto';
-  text-transform: uppercase;
-  font-size: 1em;
-  line-height: 2em;
-  letter-spacing: .08em;
-  color: black;
-  background-color: rgba(200,214,217, .3);
-}
-
-span.sub-subtitle {
-  margin: 5px 0px 5px 0px;
-  font-family: 'Playfair Display', serif;
-  font-size: 1em;
-  line-height: 1.5em;
-  letter-spacing: .03em;
-  color: black;
-/*  background-color: #e6d5dd;*/
-  background-color: rgba(230,213,221, .2);
-}
-.container {border: 1px solid gainsboro; border-radius: 10px}
-span.emphasize {
-  /*font-family: 'Archivo Narrow';*/
-  /*text-transform: uppercase;*/
-  font-size: .9em;
-  letter-spacing: .05em;
-  font-weight: 300;
-  color: black;
-  background-color: rgba(255,229,214, .2); 
-}
 .skill-thumb strong,
 .skill-thumb span {
   color: #111;
@@ -475,16 +465,7 @@ span.emphasize {
 /*---------------------------------------
   Social icon             
 -----------------------------------------*/
-/*.social-icon {
-  width: 25px;
-  height: 25px;
-  border-radius: 50px;
-  background-color: grey;
-  border: 1px solid black;
-  color: #111;
-  margin: 10px;
 
-}*/
 .social-icon {
   position: relative;
   padding: 0;
