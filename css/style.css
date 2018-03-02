@@ -37,7 +37,7 @@ p {
     font-family: Roboto;
     font-size: 1em;
     font-weight: 200;
-    line-height: 25px;
+    line-height: 1.6em;
     letter-spacing: 0.01em;
     text-align: justify;
 }
@@ -202,8 +202,8 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 1px solid #1b0575;
-  border-top-color: #e1d3e2;
+  border: 1px solid rgb(229,229,229);
+  border-top-color: rgba(0,0,0,.3);
   animation: spinner .9s linear infinite;
 }
 
@@ -214,8 +214,51 @@ a:hover, a:active, a:focus {
 @keyframes spinner {
   to {transform: rotate(360deg);}
 }
+/*
+@-webkit-@keyframes spinners {
+  to {transform: rotate(360deg);}
+}
 
-
+@keyframes spinners {
+  to {transform: rotate(360deg);}
+}
+*/
+/*.spinners {
+  border: .5px solid #fff;
+  border-radius: 5px;
+  position: relative;
+}
+.spinners:after{
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  width: 250px;
+  height: 250px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 1px solid rgba(250,219,58,.2);
+  border-top-color: rgba(255,255,255,.1);
+  animation: spinners 2s linear infinite;
+  }
+.spinners:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 350px;
+  height: 350px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 1px solid rgba(229,229,229,.5);
+  border-top-color: rgba(250,219,58,.2);
+  animation: spinners 2s linear infinite;
+}
+*/
 
 /*---------------------------------------
   Navigation section              
@@ -318,7 +361,7 @@ a:hover, a:active, a:focus {
    align-items: center;
   height: 85vh;
   position: relative;
-  /*padding-top: 62px;*/
+  /*margin-top: 10%;*/
 }
 
 #home img {
@@ -392,15 +435,18 @@ div.card-action{
   Work section              
 -----------------------------------------*/
 
-.card-title {
-  font-size: 1.5em !important;
+span.card-title {
+  font-size: 1.2em !important;
+  letter-spacing: .3em !important;
+  text-transform: uppercase !important;
 }
 .card-content{
-  background: transparent !important;
+  background: transparent;
 }
 #work .card {
   background: transparent;
   box-shadow: 0px 0px 0px 0px;
+  max-height: 222px;
 
 }
 
@@ -415,12 +461,12 @@ div.card-action{
   color: black;
 }
 .app-img {
-  height: 167px;
+  /*max-height: 167px !important;*/
   opacity: .8;
   padding-top: 5px;
 }
 .app-img:hover {
-  height: 167px;
+  /*height: 167px;*/
   opacity: 1;
 }
 /*---------------------------------------
@@ -565,7 +611,6 @@ div.card-action{
   }
 
 }
-
 
 @media (max-width: 580px) {
 
