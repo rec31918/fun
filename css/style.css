@@ -449,6 +449,15 @@ span.card-title {
   max-height: 222px;
 
 }
+.clients{
+/* height: 80px !important;*/
+ width: 60% !important;
+
+}
+.client-work{
+  align-content: center;
+  vertical-align: center;
+}
 
 #work .card:hover, #dev-work.card:hover {
   box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.2);
