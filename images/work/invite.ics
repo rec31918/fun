@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 12.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20180722T193300Z
+DTEND:20180801T234500Z
+LOCATION: Atlanta (ATL) 03:33PM local time
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:HEUVED20180722T193300Z
+DTSTAMP:20180717T211033Z
+DESCRIPTION:
+ Record Locator: HEUVED\n\n
+  ITINERARY\n\n
+ AA 
+ Flight 1947
+ \n
+ Depart: ATL - Atlanta on Sun 22 Jul 2018 at 03:33PM
+ \n
+ Arrive: CLT - Charlotte on Sun 22 Jul 2018 at 05:05PM\n
+ Booking Code: O\n
+ Traveler Information: KATHRYN ESCARRA - Coach - 23A\n
+ Traveler Information: ALEXANDER CYPHER - Coach - 23C\n
+ Check in at https://www.aa.com within 24 hours of departure.\n\n
+ AA 
+ Flight 720
+ \n
+ Depart: CLT - Charlotte on Sun 22 Jul 2018 at 06:30PM
+ \n
+ Arrive: FCO - Rome on Mon 23 Jul 2018 at 09:45AM\n
+ Booking Code: O\n
+ Meals Offered: Dinner\n
+ Meals Offered: Breakfast\n
+ Traveler Information: KATHRYN ESCARRA - Coach - 20A\n
+ Traveler Information: ALEXANDER CYPHER - Coach - 20B\n
+ Check in at https://www.aa.com within 24 hours of departure.\n\n
+ AA OPERATED BY BRITISH AIRWAYS 
+ Flight 6511
+ \n
+ Depart: FCO - Rome on Wed 1 Aug 2018 at 12:50PM
+ \n
+ Arrive: LHR - London on Wed 1 Aug 2018 at 02:40PM\n
+ Booking Code: K\n
+ Meals Offered: Food and Beverage For Purchase\n
+ Traveler Information: KATHRYN ESCARRA - Coach - \n
+ Traveler Information: ALEXANDER CYPHER - Coach - \n
+ Check in at https://www.aa.com within 24 hours of departure.\n\n
+ AA OPERATED BY BRITISH AIRWAYS 
+ Flight 6197
+ \n
+ Depart: LHR - London on Wed 1 Aug 2018 at 04:05PM
+ \n
+ Arrive: ORD - Chicago on Wed 1 Aug 2018 at 06:45PM\n
+ Booking Code: K\n
+ Meals Offered: Meal\n
+ Traveler Information: KATHRYN ESCARRA - Coach - \n
+ Traveler Information: ALEXANDER CYPHER - Coach - \n
+ Check in at https://www.aa.com within 24 hours of departure.\n\n
+  
+  \n\nThis appointment works with calendar applications that support an iCal format.
+  \n\nFlight details are subject to change and will not be reflected  in your calendar appointment.
+  \n\nBe sure to check in within 24 hours of departure on https://www.aa.com/checkin or at an airport kiosk. Don't forget your government-issue photo ID.
+  \n\nHelpful links:
+  \nCheck in on aa.com - https://www.aa.com/checkin
+  \nBaggage policies - https://www.aa.com/baggageinfo
+  \nFlight status - https://www.aa.com/travelInformation/flights/status
+  \nFlight notifications - https://www.aa.com/travelInformation/flights/schedule\n\n
+
+SUMMARY:ATL/FCO  
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+BEGIN:VALARM
+TRIGGER:-PT120M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
