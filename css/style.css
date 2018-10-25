@@ -388,12 +388,13 @@ a:hover, a:active, a:focus {
    align-items: center;
   height: 85vh;
   position: relative;
-  margin-top: 5%;
+  /*margin-top: 5%;*/
 }
 
 #home img {
   opacity: 20%;
   border-radius: 95%;
+  margin-top: 5%;
   
 }
 
