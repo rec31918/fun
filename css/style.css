@@ -72,15 +72,17 @@ span.subtitle {
     background-color: rgba(254,219,189,.5);
 }
 span.sub-subtitle {
-  margin: 5px 0px 5px 0px;
+  font-size: 88%;
+  text-shadow: 1px 1px #f0c9ab; 
+ /* margin: 5px 0px 5px 0px;*/
   /*font-family: 'Playfair Display', serif;*/
-  font-family: 'IBM Plex Mono', monospace;
+ /* font-family: 'IBM Plex Mono', monospace;*/
   /*font-family: 'Yeseva One', cursive;*/
-  font-size: 1.05em;
+ /* font-size: 1.05em;
   line-height: 1.5em;
   letter-spacing: .03em;
   color: #353131;
-  background-color: rgba(230,213,221, .5);
+  background-color: rgba(230,213,221, .5);*/
   /*light muave ^^ */
 
 }
@@ -89,7 +91,7 @@ span.emphasize {
  /* font-family: 'Roboto' !important;*/
   font-family: 'IBM Plex Mono', monospace, 'Cousine', monospace;
   /*text-transform: uppercase;*/
-  font-size: .88em!important;
+  font-size: 88%!important;
   letter-spacing: .05em;
   font-weight: 300!important;
   color: #353131;
@@ -170,8 +172,8 @@ a:hover, a:active, a:focus {
 #about, #work, #dev-work,
 #contact {
   position: relative;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color:transparent;
 }
 
@@ -416,7 +418,7 @@ a:hover, a:active, a:focus {
  /* padding-bottom: 16px;*/
 }
 
-#about .col-md-4 a {
+#about .col-xs-12 .col-md-4 a {
 /*  width: 100px;
   height: 100px;*/
   display: inline-block;
