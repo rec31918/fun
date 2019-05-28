@@ -71,6 +71,10 @@ span.subtitle {
 .title-highlight {
     background-color: rgba(254,219,189,.5);
 }
+.subtitle-highlight {
+    background-color: rgba(200,214,217,.5);
+}
+
 span.sub-subtitle {
   font-size: 88%;
   text-shadow: 1px 1px #f0c9ab; 
@@ -320,7 +324,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .navbar-nav > li > a:hover,
 .custom-navbar .navbar-nav > li > a:focus {
-  background-color: #f0f0f0;
+  background-color: rgba(254,219,189,.1);
   color: #454545;
 }
 
@@ -337,7 +341,8 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .navbar-nav li a:hover:after,
 .custom-navbar .nav li.active > a:after {
-  background: #99989d;
+ /* background: #99989d;*/
+  background: #f5ded1;
   color: #111;
   width: 100%;
 }
@@ -368,7 +373,8 @@ a:hover, a:active, a:focus {
     }
     .custom-navbar.top-nav-collapse {
       background: #fff;
-      box-shadow:0 40px 100px rgba(0,0,0,.1);
+     /* box-shadow:0 40px 100px rgba(0,0,0,.1);*/
+     box-shadow:0 40px 100px rgba(245,222,209, .1);
       padding: 10px 0;
     }
 
@@ -581,11 +587,11 @@ span.card-title {
 .social-icon li a {
   background: #fff;
   border-radius: 100%;
-  color: #111;
+  color: #000;
   cursor: pointer;
   font-size: 16px;
   text-decoration: none;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.5s ease-in-out;
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -596,8 +602,8 @@ span.card-title {
 }
 
 .social-icon li a:hover {
-  border:.5px solid #e7e7e7;
-  transform: scale(1.1);
+  /*border:.1px solid #fff;*/
+  transform: scale(1.3);
 }
 
 
